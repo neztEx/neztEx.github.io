@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator>
   <link href="https://neztex.github.io//feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://neztex.github.io//" rel="alternate" type="text/html" />
-  <updated>2020-09-01T09:26:18-07:00</updated>
+  <updated>2020-09-02T14:50:22-07:00</updated>
   <id>https://neztex.github.io//</id>
 
   
@@ -20,8 +20,8 @@
   
   
     <entry>
-      <title type="html">Project 1</title>
-      <link href="https://neztex.github.io//" rel="alternate" type="text/html" title="Project 1" />
+      <title type="html">Pacman CTF Agents</title>
+      <link href="https://neztex.github.io//" rel="alternate" type="text/html" title="Pacman CTF Agents" />
       <published>2014-07-18T00:00:00-07:00</published>
       <updated>2014-07-18T00:00:00-07:00</updated>
       <id>https://neztex.github.io//project-1</id>
@@ -40,7 +40,7 @@
       </author>
 
       
-        <category term="Web Development" />
+        <category term="Artificial Intelligence" />
       
 
       
@@ -54,8 +54,8 @@
     </entry>
   
     <entry>
-      <title type="html">Project 2</title>
-      <link href="https://neztex.github.io//" rel="alternate" type="text/html" title="Project 2" />
+      <title type="html">Analytic Data App</title>
+      <link href="https://neztex.github.io//" rel="alternate" type="text/html" title="Analytic Data App" />
       <published>2014-07-17T00:00:00-07:00</published>
       <updated>2014-07-17T00:00:00-07:00</updated>
       <id>https://neztex.github.io//project-2</id>
@@ -74,7 +74,7 @@
       </author>
 
       
-        <category term="Web Development" />
+        <category term="Full Stack Development" />
       
 
       
@@ -88,8 +88,8 @@
     </entry>
   
     <entry>
-      <title type="html">Project 3</title>
-      <link href="https://neztex.github.io//" rel="alternate" type="text/html" title="Project 3" />
+      <title type="html">ChatBot</title>
+      <link href="https://neztex.github.io//" rel="alternate" type="text/html" title="ChatBot" />
       <published>2014-07-16T00:00:00-07:00</published>
       <updated>2014-07-16T00:00:00-07:00</updated>
       <id>https://neztex.github.io//project-3</id>
@@ -108,7 +108,7 @@
       </author>
 
       
-        <category term="Web Development" />
+        <category term="NLP/Machine Learning" />
       
 
       
@@ -122,8 +122,8 @@
     </entry>
   
     <entry>
-      <title type="html">Project 4</title>
-      <link href="https://neztex.github.io//" rel="alternate" type="text/html" title="Project 4" />
+      <title type="html">Maze Game</title>
+      <link href="https://neztex.github.io//" rel="alternate" type="text/html" title="Maze Game" />
       <published>2014-07-15T00:00:00-07:00</published>
       <updated>2014-07-15T00:00:00-07:00</updated>
       <id>https://neztex.github.io//project-4</id>
@@ -142,7 +142,7 @@
       </author>
 
       
-        <category term="Web Development" />
+        <category term="Embedded Systems" />
       
 
       
@@ -156,8 +156,8 @@
     </entry>
   
     <entry>
-      <title type="html">Project 6</title>
-      <link href="https://neztex.github.io//" rel="alternate" type="text/html" title="Project 6" />
+      <title type="html">Eight-Puzzle Solver</title>
+      <link href="https://neztex.github.io//" rel="alternate" type="text/html" title="Eight-Puzzle Solver" />
       <published>2014-07-15T00:00:00-07:00</published>
       <updated>2014-07-15T00:00:00-07:00</updated>
       <id>https://neztex.github.io//project-6</id>
@@ -176,7 +176,7 @@
       </author>
 
       
-        <category term="Web Development" />
+        <category term="Artificial Intelligence" />
       
 
       
@@ -190,8 +190,8 @@
     </entry>
   
     <entry>
-      <title type="html">Project 5</title>
-      <link href="https://neztex.github.io//" rel="alternate" type="text/html" title="Project 5" />
+      <title type="html">Mechanic Shop - SQL Database</title>
+      <link href="https://neztex.github.io//" rel="alternate" type="text/html" title="Mechanic Shop - SQL Database" />
       <published>2014-07-14T00:00:00-07:00</published>
       <updated>2014-07-14T00:00:00-07:00</updated>
       <id>https://neztex.github.io//project-5</id>
@@ -210,7 +210,7 @@
       </author>
 
       
-        <category term="Web Development" />
+        <category term="SQL Database Management" />
       
 
       
