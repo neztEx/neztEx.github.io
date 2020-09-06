@@ -58,9 +58,12 @@
                     <li class="page-scroll">
                         <a href="#portfolio">Portfolio</a>
                     </li>
-                    <!-- <li class="page-scroll">
+                    <li class="page-scroll">
                         <a href="#experience">Experience</a>
-                    </li> -->
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#education">Education</a>
+                    </li>
                     <li class="page-scroll">
                         <a href="#about">About</a>
                     </li>
@@ -78,7 +81,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <img class="img-responsive" src="img/profileST.png" alt="profile-pic" />
+        <!-- <img class="img-responsive" src="img/profileST.png" alt="profile-pic" /> -->
         <div class="intro-text">
           <!-- <span class="name">Samuel Tapia</span> -->
           <span class="name">Samuel Tapia</span>
@@ -197,29 +200,87 @@
         </div>
     </section>
      <!-- Experience Section -->
- <!-- <section class="experience" id="experience">
+ <section class="success" id="experience">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2>Experience</h2>
-                <hr class="star-light">
+                <!-- <hr class="star-light"> -->
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4 col-lg-offset-2">
-                <p>Canoo Software Engineer Intern.</p>
+            <!-- <div class="col-lg-4 col-lg-offset-2"> -->
+            <div class="col-lg-12">
+                
+                <h3>UCR Transfer Transition Program</h3>
+                <h4>Lead Peer Mentor/Programmer</h4>
+                <ul class="bullet-points">
+                    <li>Lead a diverse and dynamic team of 10 Engineering Peer Mentors</li>
+                    <li>Work on student ID sign-in Python application and google sheets to store data</li>
+                    <li>Mentor and tutor students in computer science coursework and course planning</li>
+                    <li>Presenter of seminars/workshops: technical mock interviews, resume review, and LinkedIn preparation</li>
+                </ul>
+                
+                <h3>canoo</h3>
+                <h4>Software Engineer Intern</h4>
+                <ul class="bullet-points">
+                    <li>Created a LIN analyzer using Arduino Leonardo and IDE with steering wheel switches, 
+                        created a program in C/C++ that will scan for a specific master signal and send back 
+                        requested data</li>
+                    <li>Tested and debugged microservice widgets in hardware through serial connection, 
+                        ran and created test using FUEGO framework and Docker</li>
+                    <li>Built 2d game in HTML5 and JavaScript to be ran within the AGL framework</li>
+                    <li>Created chat system with 2 Android phones using Android Studio, one device acted as a server and the other as a client</li>
+                </ul>
+                
+                <h3>Richard Welling LLP</h3>
+                <h4>Systems Administrator</h4>
+                <ul class="bullet-points">
+                    <li>Setup new policies and procedures and trained staff on how to effectively use current 
+                        applications (CCH Systems, Office Suite, CRM) increasing measurable staff production by 20%</li>
+                    <li>Analyzed and implemented new automated processes to increase effective workflow 
+                        with current applications reducing assembly time by 90%</li>
+                    <li>Implemented new tax and billing software to increase staff productivity and effectively reducing the AR billing process by 50%</li>
+                </ul>
             </div>
-            <div class="col-lg-4">
-                <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point! </p>
-            </div>
-            <div class="col-lg-8 col-lg-offset-2 text-center">
+            <!-- <div class="col-lg-8 col-lg-offset-2 text-center">
                 <a href="https://github.com/jeromelachaud/freelancer-theme" class="btn btn-lg btn-outline">
                     <i class="fa fa-download"></i> Download Theme
                 </a>
-            </div>
+            </div> -->
         </div>
     </div>
-</section> -->
+</section>
+
+     <!-- Experience Section -->
+ <section class="education" id="education">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Education</h2>
+                <!-- <hr class="star-light"> -->
+            </div>
+        </div>
+        <div class="row">
+            <!-- <div class="col-lg-4 col-lg-offset-2"> -->
+            <div class="col-lg-12">
+                <h3>University of California, Riverside</h3>
+                <h4>Bachelor of Science</h4>
+                <h5>Computer Science and Engineering</h5>
+                
+
+                <h3>El Camino College</h3>
+                <h4>Associates of Science</h4>
+                <h5>Mathemactics and Physical Science</h5>
+            </div>
+            <!-- <div class="col-lg-8 col-lg-offset-2 text-center">
+                <a href="https://github.com/jeromelachaud/freelancer-theme" class="btn btn-lg btn-outline">
+                    <i class="fa fa-download"></i> Download Theme
+                </a>
+            </div> -->
+        </div>
+    </div>
+</section>
 
      <!-- About Section -->
     <section class="success" id="about">
@@ -230,10 +291,17 @@
                     <!-- <hr class="star-light"> -->
                 </div>
             </div>
+            
+            <!-- creating 2 columns -->
             <div class="row">
-                
-                <div class="col-lg-4 col-lg-offset-2">
-                <p>I am currently a senior slated to graduate with a bachelor’s in computer science in December 2020, 
+                <div class="column left">
+                    <!-- <h2>Column 1</h2> -->
+                    <img class="img-responsive" src="img/profileST.png"/>
+
+                </div>
+                <div class="column right">
+                    <!-- <h2>Column 2</h2> -->
+                    <p>I am currently a senior slated to graduate with a bachelor’s in computer science in December 2020, 
                         from the school of Bourns College Of Engineering at the University Of California, Riverside. 
                         Having worked as a systems administrator for over 10 years, my past work experience has allowed 
                         me to see the front and back-end interrelations between software engineering and the operations 
@@ -242,16 +310,45 @@
                         AI, machine learning, and Natural Language Processing.</p>
                 
 
-                <p>I am currently seeking new opportunities to further expand my knowledge.</p>
-                </div>
-                <!-- Download Item -->
-                <div class="col-lg-8 col-lg-offset-2 text-left">
+                    <p>I am currently seeking new opportunities to further expand my knowledge.</p>
+                    
                     <a href="../img/STresume.pdf" class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i> Resume
                     </a>
                 </div>
-
             </div>
+
+            <!-- <div class="row"> -->
+                
+                <!-- <div class="col-lg-4 col-lg-offset-2"> -->
+                
+                <!-- <div class="col-lg-12" div>    
+                    <img class="img-responsive" src="img/profileST.png"/>
+                </div>
+
+                <div class="col-lg-12" div>
+                    
+                    <p>I am currently a senior slated to graduate with a bachelor’s in computer science in December 2020, 
+                        from the school of Bourns College Of Engineering at the University Of California, Riverside. 
+                        Having worked as a systems administrator for over 10 years, my past work experience has allowed 
+                        me to see the front and back-end interrelations between software engineering and the operations 
+                        of computer systems, which in term have demonstrated the interconnections of the engineering process and the 
+                        end-user. My studies have led me to focus in certain subjects with in the software engineering scope 
+                        AI, machine learning, and Natural Language Processing.</p>
+                
+
+                    <p>I am currently seeking new opportunities to further expand my knowledge.</p>
+                </div> -->
+                
+                <!-- Download Item -->
+                <!-- <div class="col-lg-8 col-lg-offset-2 text-left"> -->
+                <!-- <div class="col-lg-12" div>    
+                    <a href="../img/STresume.pdf" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Resume
+                    </a>
+                </div> -->
+
+            <!-- </div> -->
         </div>
     </section>
 
@@ -267,7 +364,8 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2">
+			<!-- <div class="col-lg-8 col-lg-offset-2"> -->
+			<div class="col-lg-12" >
 				<form  action="//formspree.io/stapia28@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
 					<div class="row control-group">
 						<div class="form-group col-xs-12 floating-label-form-group controls">
@@ -318,6 +416,8 @@
                         <h3>Location</h3>
                         <p>
                             
+                                SouthBay, CA <br>
+		                    
                         </p>
                     </div>
                     <div class="footer-col col-md-4">
@@ -325,31 +425,19 @@
                         <ul class="list-inline">
                             
                             <li>
-                                <a href="http://twitter.com/jekyllrb" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                                <a href="https://github.com/neztEx" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
                             </li>
 		                    
                             <li>
-                                <a href="" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-		                    
-                            <li>
-                                <a href="http://stackoverflow.com/questions/tagged/jekyll" class="btn-social btn-outline"><i class="fa fa-fw fa-stack-overflow"></i></a>
-                            </li>
-		                    
-                            <li>
-                                <a href="http://bitbucket.org/jekyll" class="btn-social btn-outline"><i class="fa fa-fw fa-bitbucket"></i></a>
-                            </li>
-		                    
-                            <li>
-                                <a href="http://github.com/jekyll" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                                <a href="https://www.linkedin.co/in/samuelztapia/" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
 		                    
                         </ul>
                     </div>
-                    <div class="footer-col col-md-4">
+                    <!-- <div class="footer-col col-md-4">
                         <h3>Credits</h3>
                         <p>Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

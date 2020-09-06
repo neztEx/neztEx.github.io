@@ -34,11 +34,23 @@ a.active {
 
 h1,
 h2,
-h3,
-h4,
+h3 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 800;
+    text-align: left;
+    padding-bottom: 5px;
+}
+h4 {
+    /* text-transform: uppercase; */
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 5px;
+},
 h5,
 h6 {
-    text-transform: uppercase;
+    text-transform: upspercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     text-align: left;
@@ -306,6 +318,45 @@ section.success {
     }
   } */
 
+/* adding ABOUT section column css style -SAM */
+.column {
+    float: left;
+    /* padding: 10px; */
+}
+
+.left {
+    width: 25%;
+    padding: 25px
+}
+
+.right {
+    width: 75%;
+    padding: 10px
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 1000px){
+    .column {
+        width: 100%
+    }
+}
+/* .row-col { 
+    display: flex
+} */
+
+ul.bullet-points {
+    list-style-position: outside;
+    font-size: 20px;
+}
+/* end column css style -SAM */
+
+
+
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
@@ -394,6 +445,7 @@ footer .footer-above {
 }
 
 footer .footer-col {
+    text-align: left;
     margin-bottom: 50px;
 }
 
