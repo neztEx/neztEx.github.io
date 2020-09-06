@@ -562,13 +562,15 @@ footer .footer-below {
     -webkit-transform: translateZ(0);
 }
 
+/* type-text styles below -SAM */
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 header body {
   font-family: 'Montserrat', sans-serif;
   background-color: #000;
