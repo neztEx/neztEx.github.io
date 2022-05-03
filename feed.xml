@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
-  <generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator>
+  <generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator>
   <link href="https://neztex.github.io//feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://neztex.github.io//" rel="alternate" type="text/html" />
-  <updated>2022-04-15T09:53:11-07:00</updated>
+  <updated>2022-05-03T09:34:04-07:00</updated>
   <id>https://neztex.github.io//</id>
 
   
@@ -18,6 +18,40 @@
   
 
   
+  
+    <entry>
+      <title type="html">Spatial Crime Analysis</title>
+      <link href="https://neztex.github.io//" rel="alternate" type="text/html" title="Spatial Crime Analysis" />
+      <published>2021-07-15T00:00:00-07:00</published>
+      <updated>2021-07-15T00:00:00-07:00</updated>
+      <id>https://neztex.github.io//project-7</id>
+      <content type="html" xml:base="https://neztex.github.io//"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Big-Data/Spatial Analysis" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Pacman CTF Agents</title>
